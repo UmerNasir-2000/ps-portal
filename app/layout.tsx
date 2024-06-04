@@ -7,7 +7,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600", "700"] });
 
 export const metadata: Metadata = {
-  title: "Problem Solving Portal | Visionary",
+  title: "DevCode | Home",
   description: "A portal for solving problems",
 };
 

@@ -20,7 +20,9 @@ export default function RootLayout({ children }: Readonly<PropsWithChildren>) {
           <div className="hidden bg-blue-600 text-white lg:block">
             <div className="h-full flex flex-col justify-center items-center gap-y-4">
               <Image src="/logo.svg" alt="Logo" width={150} height={150} />
-              <p className="text-sm">One place to manage it all.</p>
+              <p className="text-base">
+                The only place for practicing problems.
+              </p>
             </div>
           </div>
         </section>
@@ -33,7 +35,9 @@ export default function RootLayout({ children }: Readonly<PropsWithChildren>) {
           <div className="hidden bg-blue-600 text-white lg:block">
             <div className="h-full flex flex-col justify-center items-center gap-y-4">
               <Image src="/logo.svg" alt="Logo" width={150} height={150} />
-              <p className="text-sm">One place to manage it all.</p>
+              <p className="text-base">
+                The only place for practicing problems
+              </p>
             </div>
           </div>
         </section>
