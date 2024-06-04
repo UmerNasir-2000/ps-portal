@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Problem Solving Portal | Visionary",
   description: "A portal for solving problems",
 };
-
+//
 export default function RootLayout({ children }: Readonly<PropsWithChildren>) {
   return (
     <html lang="en">
