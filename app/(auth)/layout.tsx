@@ -8,7 +8,7 @@ export default function RootLayout({ children }: Readonly<PropsWithChildren>) {
     <>
       <ClerkLoading>
         <section className="min-h-screen grid grid-cols-1 lg:grid-cols-2">
-          <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center bg-blue-600 lg:bg-white">
             <div className="flex flex-col space-y-3">
               <Skeleton className="h-[400px] w-[400px] rounded-xl" />
               <div className="space-y-2">
@@ -28,7 +28,7 @@ export default function RootLayout({ children }: Readonly<PropsWithChildren>) {
         </section>
       </ClerkLoading>
       <ClerkLoaded>
-        <section className="min-h-screen grid grid-cols-1 lg:grid-cols-2">
+        <section className="min-h-screen grid grid-cols-1 lg:grid-cols-2 bg-blue-600 lg:bg-white">
           <div className="flex flex-col justify-center items-center">
             {children}
           </div>
