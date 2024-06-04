@@ -1,6 +1,6 @@
 import { Skeleton } from "@/components/ui/skeleton";
 import Image from "next/image";
-import { ClerkLoading, ClerkLoaded, SignIn } from "@clerk/nextjs";
+import { ClerkLoading, ClerkLoaded } from "@clerk/nextjs";
 import type { PropsWithChildren } from "react";
 
 export default function RootLayout({ children }: Readonly<PropsWithChildren>) {
